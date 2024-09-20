@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    background: #fff;
+}
+
+
+.principal{
+    width: 100%;
+    padding: 10px;
+    height: auto;
+}
+
+
+/*estilos del header*/
+
+
+/*estilo de la imagen del header*/
+header .image img{
+    width: 100%;
+}
+ 
+
+.date2 {
+    position: absolute;
+    width: 130px;
+    height: 33px;
+    top: -45px;
+    background-image: linear-gradient(to top, #861622, #e10613);
+    border-radius: 15px;
+    display: grid;
+    place-items: center;
+    color: #fff;
+    font-size: 13px;
+    box-shadow: 1px 2px 12px rgba(0, 0, 0, 0.318);
+    z-index: 2;
+    text-align: center;
+    
+    transition: all 0.8s ease-in-out;
+
+}
+
+/*footer
+footer {
+    background: linear-gradient(to right, #861622, #e10613);
+    color: white; /* Color del texto 
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 20px; /* Espaciado interno del footer 
+    height: 60px;
+}
+
+.pie .redes{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.pie .redes a{
+    width: 50px;
+    font-size: 30px;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+
+
+
+.pie .redes .facebook:hover{
+    color:#1877f2;
+}
+
+.pie .redes .twiter:hover{
+    color:#1da1f2;
+} 
+
+.pie .redes .instagram:hover{
+    color:#ffdc80;
+}
+
+.pie .redes .youtube:hover{
+    color: #282828;
+}*/

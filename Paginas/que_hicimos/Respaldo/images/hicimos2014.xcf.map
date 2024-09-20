@@ -1,0 +1,17 @@
+<img src="hicimos2014.xcf" width="1000" height="604" border="0" usemap="#map" />
+
+<map name="map">
+<!-- #$-:Image map file created by GIMP Image Map plug-in -->
+<!-- #$-:GIMP Image Map plug-in by Maurits Rijk -->
+<!-- #$-:Please do not edit lines starting with "#$" -->
+<!-- #$VERSION:2.3 -->
+<!-- #$AUTHOR:T -->
+<area shape="rect" coords="7,3,327,133" alt="Programación de Cursos" href="programacion.html" />
+<area shape="rect" coords="66,155,329,287" href="proy_academicos.html" />
+<area shape="rect" coords="14,309,328,440" href="proy_institucionales.html" />
+<area shape="rect" coords="16,463,332,600" href="conferencias.html" />
+<area shape="rect" coords="692,38,925,157" href="practicas.html" />
+<area shape="rect" coords="690,178,926,297"  nohref="nohref" />
+<area shape="rect" coords="690,317,961,439" href="congresos.html" />
+<area shape="rect" coords="690,460,993,565" href="proy_ing_extraordinarios.html" />
+</map>

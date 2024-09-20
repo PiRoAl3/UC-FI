@@ -1,0 +1,241 @@
+
+
+/* estilos del timeline*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    width: 100%;
+    padding: 10px;
+    position: relative;
+    top: -14px;
+    display: flex;
+    justify-content: center;
+
+    & ul{
+        list-style: none;
+        display: flex;
+        justify-content: flex-start;
+
+        & li a{
+            text-decoration: none;
+            display: inline-block;
+            color: #861622;
+            padding: 17px 15px;
+            font-size: 15px;
+            transition: all 0.5s ease-in-out;
+        }
+
+        & li a:hover{
+            background: linear-gradient(to top, #861622, #e10613);
+            color: #fff;
+        }
+    }
+
+    & .bar{
+        width: 100%;
+        height: 5px;
+        background:linear-gradient(to right, #861622, #e10613);
+        position: absolute;
+        top: 60px;
+    }
+}
+
+
+
+
+
+
+
+
+.principal{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    & .texto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: #861622;
+    height: 100px;
+    width: 100%;
+    margin-bottom: 80px;
+    
+    & .bar{
+        height: 2px;
+        width: 20%;
+        background: linear-gradient(to right, #861622, #e10613);
+        margin-bottom: 10px;
+    }
+
+    & h1{
+        font-size: 27px;
+
+    }
+
+    & h4{
+        font-size: 20px;
+    }
+    }
+}  
+
+.container {
+    width: 70%;
+    height: auto;
+    margin: auto 0;
+    position: relative;
+}
+
+.container ul {
+    list-style: none;
+}
+
+.container ul::after {
+    content: " ";
+    position: absolute;
+    width: 2px;
+    height: 100%;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    background-image: linear-gradient(to bottom, #861622, #e10613);
+}
+
+.container ul li{
+    width: 50%;
+    height: auto;
+    background-color: #fff;
+    border-radius: 8px;
+    position: relative;
+    margin-bottom: 30px;
+    z-index: 99;
+}
+
+.container ul li:nth-child(4) {
+    margin-bottom: 0;
+}
+
+.container ul li .circle {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #e106159c;
+    top: 0;
+    display: grid;
+    place-items: center;
+}
+
+.circle::after{
+    content: ' ';
+    width: 12px;
+    height: 12px;
+    background-color: #e10613;
+    border-radius: 50%;
+}
+
+ul li:nth-child(odd) .circle {
+    transform: translate(50%, -50%);
+    right: -30px;
+}
+
+ul li:nth-child(even) .circle {
+    transform: translate(-50%, -50%);
+    left: -30px;
+}
+
+.date {
+    position: absolute;
+    width: 250px;
+    height: 60px;
+    top: 50px;
+    font-size: 22px;
+    background-image: linear-gradient(to top, #861622, #e10613);
+    border-radius: 15px;
+    display: grid;
+    place-items: center;
+    color: #fff;
+    box-shadow: 1px 2px 12px rgba(0, 0, 0, 0.318);
+    z-index: 2;
+    text-align: center;
+    
+    transition: all 0.8s ease-in-out;
+
+}
+
+
+.container ul li:nth-child(odd) {
+    float: left;
+    clear: right;
+    text-align: right;
+    transform: translateX(-30px);
+}
+
+ul li:nth-child(odd) .date {
+    right: 20px;
+}
+
+.container ul li:nth-child(even) {
+    float: right;
+    clear: left;
+    transform: translateX(30px);
+}
+ul li .heading {
+    font-size: 17px;
+    color: #861622;
+}
+
+
+ul li p {
+    font-size: 13px;
+    color: #666;
+    line-height: 18px;
+    margin: 6px 0 4px 0;
+}
+
+ul li a {
+    font-size: 13px;
+    text-decoration: none;
+    color: #e6333f;
+    transition: all 0.3s ease;
+}
+
+
+
+/*estado inicial que oculta la informacion y solo deja la  tarjeta*/
+.info{
+    opacity: 0;
+    padding: 15px 20px;
+    border-radius: 8px;
+    transition: all 0.8s ease-in-out;
+
+}
+
+
+.info-opacity{
+    opacity: 1;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.318);
+
+}
+
+
+
+.moved{
+    transform: translate(0px,-120px);
+    font-size: 14px;
+    width: 130px;
+    height: 40px;
+}
+
+
+
+
+

@@ -1,0 +1,88 @@
+
+
+.modal{
+    position: relative;
+    left: 50%;                      /* En conjunto con el transform, */
+    top: 50%;                       /* se asegura que siempre esté centrado. */
+    width: calc(100%-80px);         /* Se le restan 80 pixeles al ancho total de la pantalla. */
+    height: calc(100%-80px);        /* Se le restan 80 pixeles al alto total de la pantalla. */
+    justify-self: auto;
+
+    border-radius: 5px;
+    border: none;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    width: 600px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 1);
+    padding: 5px;
+
+
+    z-index: auto;
+
+    /* Se modificaron el left, top, width y height, 
+    se añadió un transform, box-sizing, un width para arreglar
+    el ajuste del modal al tamaño de la pantalla.  */
+
+    
+    & .title-modal{
+        background: linear-gradient(to top, #861621, #e10615);
+        height: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        & h2{
+        text-align: center;
+        color: #ffffff;
+        font-size: 32px;
+        }
+    }
+
+    & p2 , & h2{
+        color: #000000;
+    }
+
+    & p1{
+        font-size: 24px;
+        text-align: justify;
+        display: flex;
+        padding: 5px;
+        font-weight: bold;
+    }
+
+    & p2{
+        display: flex;
+        justify-content: center;
+        text-align: justify;
+        font-size: 16px;
+        padding: 5px;
+
+    }
+}
+
+.paginaOpacity{
+    filter: blur(10px);
+}
+
+.modal-img{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    padding: 2.5%;
+}
+
+.close-btn{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: white;
+    border: none;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.close-btn:hover{
+    color: red;
+    background-color: darkgray;
+}
