@@ -1,0 +1,134 @@
+/*carrousel*/
+.Carousel{
+    width: 100%;
+    margin-top: 1.25em;
+}
+
+.Carousel h2{
+    margin-top: 2em;
+    font-size: 1.63em;
+    line-height: 2.38em;
+    padding-bottom: 1.5em;
+    opacity: .9;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    text-align: center;
+}
+
+/* images */
+
+.slick-list{
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    height: 19em;
+    padding: 0.65em 0em;
+    margin: 0px auto;
+    max-width: 90vw;
+    overflow: hidden;
+}
+.slick-track{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    transition: .5s ease-in-out;
+}
+.slick{
+    position: relative;
+    width: 37.5em;
+    padding: 0 1.13em;
+    float: left;
+    box-sizing: border-box;
+    display: flex;
+    height: 100%;
+}
+.slick h4{
+    position: absolute;
+    z-index: 1;
+    font-size: 1.37em;
+    line-height: 1.44em;
+    color: #fff;
+    padding: 1em;
+}
+.slick h4 small{
+    font-size: 1em;
+    display: block;
+}
+.slick a img{
+    object-fit: cover;
+    height: 18.75em;
+    width: 100%;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.5);
+    transition: .3s ease-in-out;
+}
+.slick a img:hover{
+    opacity: .85;
+}
+
+
+
+.text-principal{
+    margin: 2em 0.63em 0.63em 0.63em;
+}
+
+
+.text-principal h1{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    color: #861622;
+}
+
+/*texto principal*/
+.text-principal h1::before,.text-principal h1::after{
+    content: '';
+    height: 0.25em;
+    width: 16.5em;
+    position: relative;
+    top: 10px;
+}
+
+.text-principal h1::before{
+    left: -0.63em;
+    background: linear-gradient(to right, #861622, #e10613);
+}
+
+.text-principal h1::after{
+    right: -0.63em;
+    background: linear-gradient(to left, #861622, #e10613)
+}
+
+
+/* buttons */
+
+.slick-arrow{
+    border-radius: 30px;
+    background-color: #fff;
+    position: absolute;
+    z-index: 4;
+    width: 3em;
+    height: 3em;
+    text-align: center;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.15);
+    border: 0;
+    cursor: pointer;
+}
+.slick-arrow:focus{
+    outline: 0;
+}
+.slick-arrow svg{
+    width: 12px;
+    height: 100%;
+    color: rgba(0,0,0,.7);
+}
+.slick-prev{
+    left: 0px;
+}
+.slick-next{
+    right: 0px;
+}
+
