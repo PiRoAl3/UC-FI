@@ -108,5 +108,127 @@ header .image img{
     }
 }
 
+/*FIn menu barra de navegación.*/
+
+#title {
+	padding: 10px 0;
+	background-color: #F5F5F5;
+	border-bottom: 1px solid #EEE;
+}
+
+/* Estilos de diseño y fuentes de titulos y sub========== */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: #444;
+	font-weight: 600;
+	line-height: 1.5;
+	margin: 0;
+	font-family: 'Lato', sans-serif;
+}
+
+/* Para titulo del departamento */
+h1 {
+	font-size: 24px;
+  text-align: center;
+  font-family: 'lato', sans-serif;
+  color: #cd171e;
+  letter-spacing: 3px;
+}
+
+/* Para titulo de página */
+h2 { 
+  font-size: 30px; 
+  text-align: center;
+  letter-spacing: 1px;
+  margin: 20px 20px;
+}
+
+/* Para subtitulos de página */
+h3 { 
+  font-size: 24px; 
+  padding: 10px 0px;
+  color: #cd171e;
+}
+
+/* Para titulos o subtitulos en contenedores */
+h4 {
+  padding: 0;
+  margin: 0;
+  font-size: 18px;
+}
+
+h5{
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+}
+
+h6 { 
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+}
+p {
+	padding: 0;
+	margin: 0;
+  font-size: 14px;
+  color: #444;
+}
+
+/*Seccion de Copyrights========================*/
+
+#copyrights {
+	background-color: #cd171e;
+  padding: 10px 10px;
+  margin: 0;
+
+  float: none;
+	max-width: none;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.copy h6{
+	color: #fff;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin: 0;
+  margin-bottom: 0px;
+}
+
+.copy p {
+	font-size: 11px;
+	color: #fff;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  line-height: 1.5;
+	margin:0;
+  margin-bottom: 0px;
+} 
+
+@media all and (max-width: 750px) {
+  #copyrights .copy p{ 
+    justify-content: space-between;
+    text-align:left ;
+  }
+}
+/*Fin de Seccion de Copyrights========================*/
+
+.bienvenida > div > .contenedor {
+	padding: 10px 10px;
+  background-color: #F5F5F5;
+  justify-content: center;
+  text-align: justify;
+  display: flex;
+  margin: auto;
+}
+
 
 
