@@ -18,6 +18,11 @@ body{
     align-items: center;
     justify-content: center;
     background: #fff;
+    /*margin-top: 80px;*/
+}
+
+.bienvenida .contenedor{
+  margin-bottom: 20px;
 }
 
 .pagina{
@@ -117,7 +122,7 @@ header .image img{
 }
 
 /* Estilos de diseño y fuentes de titulos y sub========== */
-h1,
+/*h1,
 h2,
 h3,
 h4,
@@ -128,34 +133,34 @@ h6 {
 	line-height: 1.5;
 	margin: 0;
 	font-family: 'Lato', sans-serif;
-}
+}*/
 
 /* Para titulo del departamento */
-h1 {
+/*h1 {
 	font-size: 24px;
   text-align: center;
   font-family: 'lato', sans-serif;
   color: #cd171e;
   letter-spacing: 3px;
-}
+}*/
 
 /* Para titulo de página */
-h2 { 
+/*h2 { 
   font-size: 30px; 
   text-align: center;
   letter-spacing: 1px;
   margin: 20px 20px;
-}
+}*/
 
 /* Para subtitulos de página */
-h3 { 
+/*h3 { 
   font-size: 24px; 
   padding: 10px 0px;
   color: #cd171e;
-}
+}*/
 
 /* Para titulos o subtitulos en contenedores */
-h4 {
+/*h4 {
   padding: 0;
   margin: 0;
   font-size: 18px;
@@ -177,7 +182,7 @@ p {
 	margin: 0;
   font-size: 14px;
   color: #444;
-}
+}*/
 
 /*Seccion de Copyrights========================*/
 
@@ -193,6 +198,7 @@ p {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  margin-top: 20px;
 }
 
 .copy h6{

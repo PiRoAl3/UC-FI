@@ -2,14 +2,16 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family:sans-serif,Arial, Helvetica, sans-serif
 }
 
-body {
+/*body {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 80px;
-    background: linear-gradient(to right, #EEBE6C, #CA7C4E); 
+    
+
 }
 
 body .frame {
@@ -21,7 +23,7 @@ body .frame {
     border-radius: 20px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
     z-index: 6;
-}
+}*/
 
 .principal {
     width: 245px;

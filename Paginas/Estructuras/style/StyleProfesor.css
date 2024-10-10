@@ -1,0 +1,214 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:sans-serif,Arial, Helvetica, sans-serif
+}
+
+.prueba {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    
+
+}
+
+.fra {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    z-index: 6;
+}
+
+.princ {
+    width: 245px;
+    height: 400px;
+}
+
+/*estilos de la foto y letras*/
+.princ .hea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 213px;
+    width: 245px;
+}
+
+
+
+.princ .hea .foto{
+    position: relative;
+    z-index: 8;
+    
+}
+
+.princ .hea .im {
+    position: absolute;
+    top: 12%;
+    left: 12%;
+    margin-bottom: 10px;
+    
+    
+}
+
+.princ .hea .im img {
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    
+}
+
+.princ .hea .text {
+    color: #857160;
+    text-align: center;
+    & .nombre{
+        margin-bottom: 10px;
+    }
+}
+
+
+
+/*estilos del spinner*/
+.spinner, .spinner:after{
+    width: 115px;
+    height: 115px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border-top: 2px solid #857160;
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #857160;
+    border-left: 2px solid #857160;
+    position: relative; 
+    transition: all 1.5s ease-in-out;
+
+}
+
+.spinner2, .spinner2:after {
+    width: 105px;
+    height: 105px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border-top: 2px solid #857160;
+    border-right: 2px solid #857160;
+    border-bottom: 2px solid #857160;
+    border-left: 2px solid rgb(255, 255, 255);
+    transition: all 1.5s ease-in-out;
+}
+
+
+
+.princ .hea .foto:hover .spinner{
+    animation: spinner-loading-izq 1.2s linear 1;
+} 
+
+
+.princ .hea .foto:hover .spinner2{
+    animation: spinner-loading-der 1.2s linear 1;
+}
+
+@keyframes spinner-loading-izq {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes spinner-loading-der {
+    0% {
+        transform: rotate(360deg);
+    }
+    100% {
+        transform: rotate(-360deg);
+    }
+}
+
+
+
+
+
+
+
+
+
+/*estilo de los botones*/
+.princ .botones {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 245px;
+    height: 187px;
+}
+
+.princ .botones .bt {
+    border: 1px solid #857160;
+    background-color: transparent;
+    color: #857160;
+    font-weight: bold;
+    width: 165px;
+    height: 44px;
+    margin: 10px;
+    border-radius: 15px;
+    transition: all .3s ease-in-out;
+}
+
+.princ .botones .bt:hover {
+    background: #857160;
+    color: #fff;
+    cursor: pointer;
+}
+
+/*estilos de la parte de estadisticas*/
+.estadisticas {
+    width: 155px;
+    height: 400px;
+}
+
+.estadisticas .cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #000000;
+    background: #f79999;
+    width: 155px;
+    height: 130px;
+    margin-bottom: 5px;
+    transition: all .3s ease-in-out;
+}
+
+.estadisticas .posts{
+    border-top-right-radius: 20px;
+}
+
+.estadisticas .follower{
+    border-bottom-right-radius: 20px;
+}
+
+.estadisticas .cont .num {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.estadisticas .cont:hover {
+    background: #E1CFC2;
+    cursor: pointer;
+}
+
+
+
+
