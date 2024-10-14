@@ -71,6 +71,8 @@ header .image img{
             padding: 17px 15px;
             font-size: 15px;
             transition: all 0.5s ease-in-out;
+            width: auto;
+            height: 50px;
         }
 
         & li a:hover{
