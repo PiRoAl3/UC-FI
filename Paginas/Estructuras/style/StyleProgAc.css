@@ -1,0 +1,109 @@
+/*Subitulo ==========================================*/
+.sub{
+    padding: 0px 20px;   
+  }
+  @media screen and (max-width: 800px) {
+    .sub{
+      text-align: center;   
+    }
+  }
+  /*Fin de Subtitulo ==========================================*/
+  
+  /*Seccion de  informacion en bloques ==========================================*/
+  .bloques{
+    padding: 10px 20px; 
+  }
+  
+  .top-bloque, .foot-bloque{
+    background-color: #00627b;
+    opacity: 70%;
+    height: 10px;
+  }
+  
+  .center-bloque{
+    position: relative;
+      padding: 0px 0px;
+    background-color: none;
+      border-bottom: none;
+  }
+  
+  .center-bloque >.contenedor{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .center-bloque > .contenedor> .widget {
+    background-color: #F5F5F5;
+      border-bottom: 10px solid #EEE;
+    
+    text-align: center;
+    padding: 20px 20px;
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  .center-bloque h4{
+    color: #00627b;
+  }
+  
+  .center-bloque h5{
+    color: #00627b;
+  }
+  
+  .badge-danger{
+    font-size: 14px;
+    margin: 3px 0;
+    background: #00627b;
+    color: #fff;
+    display: inline-block;
+    display: inline-table;
+    padding: 3px 4px;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    max-width: 200px;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25rem;
+  }
+  
+  .badge-danger2{
+    font-size: 16px;
+    margin: 0.5em;
+    background: #00627b;
+    color: #fff;
+    display: inline-block;
+    padding: 0.25em 0.4em;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25rem;
+  }
+  
+  .center-bloque p .email {
+    color: #007bff;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+  }
+  
+  .center-bloque .email:hover {
+    color: #555;
+  }
+  
+  @media all and (max-width: 620px){
+    .bloques{
+      padding: 0px 0px; 
+  
+    } 
+  } 
+
+  .widget21{
+    position: relative;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
