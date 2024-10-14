@@ -7,22 +7,22 @@
 
 .prueba {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 80px;
-    
-
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
 }
 
 .fra {
     width: 400px;
-    height: 400px;
+    height: 420px;
     display: flex;
     flex-direction: row;
     background: #fff;
     border-radius: 20px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
     z-index: 6;
+    margin-bottom: 25px;
 }
 
 .princ {
@@ -36,7 +36,6 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 213px;
     width: 245px;
 }
 
@@ -175,7 +174,7 @@
 /*estilos de la parte de estadisticas*/
 .estadisticas {
     width: 155px;
-    height: 400px;
+    height: 300px;
 }
 
 .estadisticas .cont {
@@ -184,9 +183,9 @@
     justify-content: center;
     flex-direction: column;
     color: #000000;
-    background: #f79999;
+    background: #8fb1a3;
     width: 155px;
-    height: 130px;
+    height: 137px;
     margin-bottom: 5px;
     transition: all .3s ease-in-out;
 }
@@ -209,6 +208,14 @@
     cursor: pointer;
 }
 
+.linea {
+    width: 100%; /* Ajusta el ancho según lo necesites */
+    height: 5px; /* Grosor de la línea */
+    background-color: rgb(138, 31, 31); /* Color de la línea */
+    margin-top: -5px; /* Ajusta la posición */
+}
 
-
-
+.txt{
+    text-align: left;
+    margin-bottom: 5px;
+}

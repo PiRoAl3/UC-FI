@@ -1,0 +1,19 @@
+.dip-tag-title {
+  font-weight: bold;
+}
+
+.dip-tag-content {
+  font-size: 1.05em;
+}
+
+.tag {
+  display: inline-block;
+  margin: 0.25em 0;
+  padding: 0.25em;
+  border-radius: 5px;
+}
+
+.element-content {
+  display: inline-block;
+  margin: 0.20em 0;
+}

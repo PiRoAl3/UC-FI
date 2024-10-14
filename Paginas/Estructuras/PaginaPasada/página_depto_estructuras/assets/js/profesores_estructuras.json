@@ -1,0 +1,835 @@
+{
+  "Ing. Esp. Ximena Penélope Amezcua Pastrana": {
+    "_id": 1,
+    "academic_degree": "Ing. Esp.",
+    "photo_name": "profesor.png",
+    "names": "Ximena Penélope",
+    "last name": "Amezcua Pastrana",
+    "email": "ximena.amezcua@ingenieria.unam.edu",
+    "teaching_subjects": [
+      {
+        "clave": "",
+        "nombre": "Estructuras Isostáticas",
+        "créditos": ""
+      }
+    ],
+    "about": "",
+    "specialization": "",
+    "website": ""
+  },
+  "Ing. Alfredo Carlos Arroyo Vega": {
+    "_id": 2,
+    "academic_degree": "Ing.",
+    "photo_name": "est_CarlosArroyoVega.jpg",
+    "names": "Alfredo Carlos",
+    "last name": "Arroyo Vega",
+    "email": "cafelingenieria@prodigy.net.mx",
+    "teaching_subjects": [
+      {
+        "clave": "",
+        "nombre": "Estructuras de Acero",
+        "créditos": ""
+      },
+      {
+        "clave": "",
+        "nombre": "Estructuras de Acero (Esp)",
+        "créditos": ""
+      }
+    ],
+    "about": "Ingeniero Civil, egresado de la Facultad de Ingeniería, UNAM. Maestría en Administración, Instituto Tecnológico de la Construcción. Ingresó a la UNAM en 1986.",
+    "specialization": "",
+    "website": ""
+  },
+  "M.I. Jorge Arturo Avila Rodríguez": {
+    "_id": 3,
+    "academic_degree": "M.I.",
+    "photo_name": "est_JorgeArturoAvilaRodriguez.jpg",
+    "names": "Jorge Arturo",
+    "last name": "Avila Rodríguez",
+    "email": "javr@pumas.iingen.unam.mx",
+    "teaching_subjects": [
+      {
+        "clave": "",
+        "nombre": "Proyecto Estruc Conc y Mamp",
+        "créditos": ""
+      }
+    ],
+    "about": "Profesor de Asignatura 'A', Definitivo. Ingeniero Civil, egresado de la Facultad de Ingeniería, UNAM. Maestro en Estructuras, egresado de la DEPFI, UNAM. Estudios de Doctorado en Estructuras, DEPFI, UNAM. Ingresó a la UNAM en 1979.",
+    "specialization": "",
+    "website": ""
+  },
+  "M.I. Victor Cecilio Romoaldo": {
+    "_id": 5,
+    "academic_degree": "M.I.",
+    "photo_name": "profesor.png",
+    "names": "Victor",
+    "last name": "Cecilio Romoaldo",
+    "email": "victorcr.ing@gmail.com",
+    "teaching_subjects": [
+      {
+        "clave": "",
+        "nombre": "Dimensionamiento de elementos estructurales",
+        "créditos": ""
+      }
+    ],
+    "about": "",
+    "specialization": "",
+    "website": ""
+  },
+  "Dr. Marcos Mauricio Chávez Cano": {
+    "_id": 6,
+    "academic_degree": "Dr.",
+    "photo_name": "profesor.png",
+    "names": "Marcos Mauricio",
+    "last name": "Chávez Cano",
+    "email": "MChavezC@iingen.unam.mx",
+    "teaching_subjects": [
+      {
+        "clave": "",
+        "nombre": "Mecánica de Materiales II",
+        "créditos": ""
+      }
+    ],
+    "about": "",
+    "specialization": "",
+    "website": ""
+  },
+  "Ing. José Manuel Covarrubias Solís": {
+    "_id": 7,
+    "academic_degree": "Ing.",
+    "photo_name": "est_JoseManuelCovarrubiasSolis.jpg",
+    "names": "José Manuel",
+    "last name": "Covarrubias Solís",
+    "email": "jmcova@infinitummail.com",
+    "teaching_subjects": [
+      {
+        "clave": "",
+        "nombre": "Mecánica de Materiales I",
+        "créditos": ""
+      }
+    ],
+    "about": "Tesorero de la UNAM. Profesor de Asignatura 'B' Definitivo. Ingeniero Civil, egresado de la Facultad de Ingeniería, UNAM. Estudios de Maestría en la DEPFI, UNAM. Ingresó a la UNAM en 1953.",
+    "specialization": "",
+    "website": ""
+  },
+  "M.I. Roberto Durán Hernández": {
+    "_id": 9,
+    "academic_degree": "M.I.",
+    "photo_name": "profesor.png",
+    "names": "Roberto",
+    "last name": "Durán Hernández",
+    "email": "rduranh@ii.unam.mx",
+    "teaching_subjects": [
+      {
+        "clave": "",
+        "nombre": "Mecánica de Materiales I",
+        "créditos": ""
+      }
+    ],
+    "about": "",
+    "specialization": "",
+    "website": ""
+  },
+  "Ing. Esp. Héctor Geovanni Elizarrarás Esquivel": {
+    "_id": 10,
+    "academic_degree": "Ing. Esp.",
+    "photo_name": "profesor.png",
+    "names": "Héctor Geovanni",
+    "last name": "Elizarrarás Esquivel",
+    "email": "hgelizarraras@gmail.com",
+    "teaching_subjects": [
+      {
+        "clave": "",
+        "nombre": "Proyecto Estruc Metálicas",
+        "créditos": ""
+      },
+      {
+        "clave": "",
+        "nombre": "Taller para Estructuras de Acero (Esp)",
+        "créditos": ""
+      }
+    ],
+    "about": "",
+    "specialization": "",
+    "website": ""
+  },
+  "Dr. Marco Antonio Escamilla García": {
+    "_id": 11,
+    "academic_degree": "Dr.",
+    "photo_name": "profesor.png",
+    "names": "Marco Antonio",
+    "last name": "Escamilla García",
+    "email": "MEscamillaG@iingen.unam.mx",
+    "teaching_subjects": [
+      {
+        "clave": "",
+        "nombre": "Proyecto Estruc Conc y Mamp",
+        "créditos": ""
+      }
+    ],
+    "about": "",
+    "specialization": "",
+    "website": ""
+  },
+  "Dr. José Alberto Escobar Sánchez": {
+    "_id": 12,
+    "academic_degree": "Dr.",
+    "photo_name": "est_JoseAlbertoEscobarSanchez.jpg",
+    "names": "José Alberto",
+    "last name": "Escobar Sánchez",
+    "email": "jess@pumas.iingen.unam.mx",
+    "teaching_subjects": [
+      {
+        "clave": "",
+        "nombre": "Estructuras Isostáticas",
+        "créditos": ""
+      }
+    ],
+    "about": "Investigador Titular 'C', Tiempo Completo. Ingeniero Civil, egresado de la ESIA-IPN. Maestro en Estructuras, egresado de la DEPFI, UNAM. Doctor en Estructuras, egresado de la DEPFI, UNAM. Ingresó a la UNAM en 1985.",
+    "specialization": "",
+    "website": ""
+  },
+  "Ing. José Luis Esquivel Ávila": {
+    "_id": 13,
+    "academic_degree": "Ing.",
+    "photo_name": "est_JoseLuisEsquivelAvila.jpg",
+    "names": "José Luis",
+    "last name": "Esquivel Ávila",
+    "email": "joseesquivel0404@gmail.com",
+    "teaching_subjects": [
+      {
+        "clave": "",
+        "nombre": "Diseño Estructural",
+        "créditos": ""
+      }
+    ],
+    "about": "Profesor de Asignatura 'A', Definitivo. Ingeniero Civil, egresado de la Facultad de Ingeniería, UNAM. Ingresó a la UNAM en 1984.",
+    "specialization": "",
+    "website": ""
+  },
+  "M.I. Leonardo Flores Corona": {
+    "_id": 15,
+    "academic_degree": "M.I.",
+    "photo_name": "profesor.png",
+    "names": "Leonardo",
+    "last name": "Flores Corona",
+    "email": "lfc@cenapred.unam.mx",
+    "teaching_subjects": [
+      {
+        "clave": "",
+        "nombre": "Estructuras de Mampostería (Esp)",
+        "créditos": ""
+      },
+      {
+        "clave": "",
+        "nombre": "Taller para Estructuras de Mampostería (Esp)",
+        "créditos": ""
+      }
+    ],
+    "about": "",
+    "specialization": "",
+    "website": ""
+  },
+  "M.I. Victoriano Armando Gallegos Suárez": {
+    "_id": 16,
+    "academic_degree": "M.I.",
+    "photo_name": "est_ArmandoGallegosSuarez.jpg",
+    "names": "Victoriano Armando",
+    "last name": "Gallegos Suárez",
+    "email": "agallegos@gallegosconsultores.com.mx",
+    "teaching_subjects": [
+      {
+        "clave": "",
+        "nombre": "Diseño Estructural",
+        "créditos": ""
+      },
+      {
+        "clave": "",
+        "nombre": "Puentes (Esp)",
+        "créditos": ""
+      },
+      {
+        "clave": "",
+        "nombre": "Taller pata Proyectos de Puentes (Esp)",
+        "créditos": ""
+      }
+    ],
+    "about": "Profesor de Asignatura 'A', Definitivo. Ingeniero Civil, egresado de la Facultad de Ingeniería, UNAM. Maestro en Estructuras, egresado de la DEPFI, UNAM. Ingresó a la UNAM en 1990.",
+    "specialization": "",
+    "website": ""
+  },
+  "M.I. Octavio García Domínguez": {
+    "_id": 17,
+    "academic_degree": "M.I.",
+    "photo_name": "est_OctavioGarciaDominguez.jpg",
+    "names": "Octavio",
+    "last name": "García Domínguez",
+    "email": "clasesogd@gmail.com",
+    "teaching_subjects": [
+      {
+        "clave": "",
+        "nombre": "Análisis Estructural",
+        "créditos": ""
+      },
+      {
+        "clave": "",
+        "nombre": "Teoría General de las Estructuras 1 (Mae)",
+        "créditos": ""
+      }
+    ],
+    "about": "Ingeniero Civil, Facultad de Ingeniería, UAZ, 1989. Maestro en Ingeniería ( Estructuras ), DEPFI, UNAM, 1992. Investigador Adjunto, Laboratorio de Cómputo Avanzado, DEPFI, UNAM, 1993-1996. Profr de asignatura, DEPFI, UNAM, 1995-1997. Profr de Asignatura, Fac. de Arquitectura, UNAM, 1997-1998. Profr de asignatura, DCBFI, UNAM, 1997-2005. Jefe del Departamento de Estructuras, DEPFI, UNAM, 1996-2002. Profr de Carrera Asociado B, TC, 1997-2005. Jefe del Departamento de Estructuras, DICyG, FI, UNAM, 2002-Fecha. Profr de Carrera Asociado 'C', Tiempo Completo, Definitivo",
+    "specialization": "Torsión Sísmica de Edificios. Análisis y Diseño Estructural de Edificios. Análisis Numérico de Estructuras Especiales. Instrumentación Sísmica de Estructuras. Análisis, Inspección y Mantenimiento de Puentes. Modelado y Análisis de Estructuras Tridimensionales. Métodos Numéricos aplicados al Análisis Estructural. Cómputo Científico. Desarrollo de Sistemas Multimedios Aplicados a la Docencia.",
+    "website": ""
+  },
+  "Ing. Raúl David Granados Granados": {
+    "_id": 18,
+    "academic_degree": "Ing.",
+    "photo_name": "est_RaulGranadosGranados.jpg",
+    "names": "Raúl David",
+    "last name": "Granados Granados",
+    "email": "rauldos1940@gmail.com",
+    "teaching_subjects": [
+      {
+        "clave": "",
+        "nombre": "Sistemas Estructurales",
+        "créditos": ""
+      }
+    ],
+    "about": "Profesor de Asignatura 'B', Definitivo. Ingeniero Civil, egresado de la Facultad de Ingeniería de la UNAM. Ingresó a la UNAM en 1978.",
+    "specialization": "",
+    "website": ""
+  },
+  "Ing. Miguel Angel Guzmán Escudero": {
+    "_id": 19,
+    "academic_degree": "Ing.",
+    "photo_name": "est_MiguelAngelGuzmanEscudero.jpg",
+    "names": "Miguel Angel",
+    "last name": "Guzmán Escudero",
+    "email": "mguzmanesc@outlook.com",
+    "teaching_subjects": [
+      {
+        "clave": "",
+        "nombre": "Estructuras de Concreto",
+        "créditos": ""
+      },
+       {
+        "clave": "",
+        "nombre": "Estructuras de Concreto (Esp)",
+        "créditos": ""
+      },
+      {
+        "clave": "",
+        "nombre": "Taller para Proyecto de Estruc. de Concreto (Esp)",
+        "créditos": ""
+      }
+    ],
+    "about": "Profesor de Asignatura 'A', Definitivo. Ingeniero Civil, Egresado de la Facultad de Ingeniería de la UNAM. Ingresó a la UNAM en 1978.",
+    "specialization": "",
+    "website": ""
+  },
+  "M.I. Héctor Javier Guzmán Olguín": {
+    "_id": 20,
+    "academic_degree": "M.I.",
+    "photo_name": "est_HectorJavierGuzmanOlguin.jpg",
+    "names": "Héctor Javier",
+    "last name": "Guzmán Olguín",
+    "email": "hectorguzmanolguin@yahoo.com.mx",
+    "teaching_subjects": [
+      {
+        "clave": "",
+        "nombre": "Mecánica de Materiales I",
+        "créditos": ""
+      },
+       {
+        "clave": "",
+        "nombre": "Mecánica de Materiales II",
+        "créditos": ""
+      }
+    ],
+    "about": "Profesor de Carrera Asociado 'C'. Ingeniero Civil, egresado del IPN. Maestro en Estructuras graduado en la Secretaría de Posgrado e Investigación, FI, UNAM en 2012. Ingresó a la UNAM en 1985.",
+    "specialization": "",
+    "website": ""
+  },
+  "Dr. Armando Rafael Hermosillo Arteaga": {
+    "_id": 21,
+    "academic_degree": "Dr.",
+    "photo_name": "profesor.png",
+    "names": "Armando Rafael",
+    "last name": "Hermosillo Arteaga",
+    "email": "ahermosilloa@gmail.com",
+    "teaching_subjects": [
+      {
+        "clave": "",
+        "nombre": "Diseño Estructural",
+        "créditos": ""
+      },
+       {
+        "clave": "",
+        "nombre": "Mecánica de Materiales II",
+        "créditos": ""
+      }
+    ],
+    "about": "",
+    "specialization": "",
+    "website": ""
+  },
+  "Ing. Fernando Isunza Mohedano": {
+    "_id": 22,
+    "academic_degree": "Ing.",
+    "photo_name": "profesor.png",
+    "names": "Fernando",
+    "last name": "Isunza Mohedano",
+    "email": "fisunza@euroestudios.com.mx",
+    "teaching_subjects": [
+      {
+        "clave": "",
+        "nombre": "Mecánica de Materiales II",
+        "créditos": ""
+      }
+    ],
+    "about": "",
+    "specialization": "",
+    "website": ""
+  },
+  "Dr. Miguel Angel Jaimes Téllez": {
+    "_id": 23,
+    "academic_degree": "Dr.",
+    "photo_name": "profesor.png",
+    "names": "Miguel Angel",
+    "last name": "Jaimes Téllez",
+    "email": "MJaimesT@iingen.unam.mx",
+    "teaching_subjects": [
+      {
+        "clave": "",
+        "nombre": "Diseño Estructural",
+        "créditos": ""
+      }
+    ],
+    "about": "",
+    "specialization": "",
+    "website": ""
+  },
+  "M.I. Julio César Manzano Ortiz": {
+    "_id": 24,
+    "academic_degree": "M.I.",
+    "photo_name": "profesor.png",
+    "names": "Julio César",
+    "last name": "Manzano Ortiz",
+    "email": "juliomanzano.ing@gmail.com",
+    "teaching_subjects": [
+      {
+        "clave": "",
+        "nombre": "Dimensionamiento básico de elementos estruc. (Esp)",
+        "créditos": ""
+      }
+    ],
+    "about": "",
+    "specialization": "",
+    "website": ""
+  },
+  "M.I. Yolanda Meléndez Alcaráz": {
+    "_id": 25,
+    "academic_degree": "M.I.",
+    "photo_name": "profesor.png",
+    "names": "Yolanda",
+    "last name": "Meléndez Alcaráz",
+    "email": "arqymelendeza@gmail.com",
+    "teaching_subjects": [
+      {
+        "clave": "",
+        "nombre": "Modelos Bim aplicados al proy. estruc. (Esp)",
+        "créditos": ""
+      }
+    ],
+    "about": "",
+    "specialization": "",
+    "website": ""
+  },
+  "M.I. Carlos Javier Mendoza Escobedo": {
+    "_id": 26,
+    "academic_degree": "M.I.",
+    "photo_name": "est_CarlosJavierMendozaEscobedo.jpg",
+    "names": "Carlos Javier",
+    "last name": "Mendoza Escobedo",
+    "email": "cjm@pumas.iingen.unam.mx",
+    "teaching_subjects": [
+      {
+        "clave": "",
+        "nombre": "Licencia",
+        "créditos": ""
+      }
+    ],
+    "about": "Subdirector de Estructuras del Instituto de Ingeniería, UNAM. Profesor de Asignatura 'B', Definitivo. Ingeniero Civil, egresado de la Universidad Autónoma de Yucatán. Maestro en Estructuras, egresado de la DEPFI, UNAM. Ingresó a la UNAM en 1972.",
+    "specialization": "",
+    "website": ""
+  },
+  "M.I. Lorenzo Octavio Miranda Cordero": {
+    "_id": 27,
+    "academic_degree": "M.I.",
+    "photo_name": "est_LorenzoMirandaCordero.jpg",
+    "names": "Lorenzo Octavio",
+    "last name": "Miranda Cordero",
+    "email": "lomc5911@unam.mx",
+    "teaching_subjects": [
+      {
+        "clave": "",
+        "nombre": "Sabático",
+        "créditos": ""
+      }
+    ],
+    "about": "Profesor de Carrera Asociado 'C', Tiempo Completo. Ingeniero Civil, egresado de la Facultad de Ingeniería de la UNAM. Ingresó a la UNAM en 1985.",
+    "specialization": "",
+    "website": ""
+  },
+  "M.I. Fernando Monroy Miranda": {
+    "_id": 28,
+    "academic_degree": "M.I.",
+    "photo_name": "est_FernandoMonroyMiranda.jpg",
+    "names": "Fernando",
+    "last name": "Monroy Miranda",
+    "email": "fernando-monroy@comunidad.unam.mx",
+    "teaching_subjects": [
+      {
+        "clave": "",
+        "nombre": "Dimensionamiento de elementos estructurales",
+        "créditos": ""
+      },
+      {
+        "clave": "",
+        "nombre": "Anáisis Estructural",
+        "créditos": ""
+      },
+      {
+        "clave": "",
+        "nombre": "Mecánica de Materiales II",
+        "créditos": ""
+      }
+    ],
+    "about": "Profesor de Carrera Asociado 'A', Interino de Tiempo Completo. Ingeniero Civil, egresado de la Facultad de Ingeniería de la UNAM. Maestro en Estructuras, egresado de la DEPFI, UNAM. Ingresó a la UNAM en 1983.",
+    "specialization": "",
+    "website": ""
+  },
+  "Ing. Fidel Mora González": {
+    "_id": 29,
+    "academic_degree": "Ing.",
+    "photo_name": "est_FidelMoraGonzalez.jpg",
+    "names": "Fidel",
+    "last name": "Mora González",
+    "email": "fmoragsi@hotmail.com",
+    "teaching_subjects": [
+      {
+        "clave": "",
+        "nombre": "Análisis Estructural",
+        "créditos": ""
+      }
+    ],
+    "about": "Profesor de Asignaturas A, Definitivo. Ingeniero Civil, egresado de la Facultad de Ingeniería de la UNAM. Estudios de Maestría en la DEPFI, UNAM. Ingresó a la UNAM en 1966.",
+    "specialization": "",
+    "website": ""
+  },
+  "M.I. Francisco Moreno Derbéz": {
+    "_id": 30,
+    "academic_degree": "M.I.",
+    "photo_name": "est_FranciscoMorenoDerbez.jpg",
+    "names": "Francisco",
+    "last name": "Moreno Derbéz",
+    "email": "framode@hotmail.com",
+    "teaching_subjects": [
+      {
+        "clave": "",
+        "nombre": "Mecánica de Materiales II",
+        "créditos": ""
+      }
+    ],
+    "about": "Profesor de Asignatura A, Definitivo. Ingeniero Civil, egresado de la Facultad de Ingeniería de la UNAM. Ingresó a la UNAM en 1974.",
+    "specialization": "",
+    "website": ""
+  },
+  "Dr. Mauro Pompeyo Niño Lázaro": {
+    "_id": 31,
+    "academic_degree": "Dr.",
+    "photo_name": "profesor.png",
+    "names": "Mauro Pompeyo",
+    "last name": "Niño Lázaro",
+    "email": "mninol@ingenieria.unam.edu",
+    "teaching_subjects": [
+      {
+        "clave": "",
+        "nombre": "Diseño Estructural",
+        "créditos": ""
+      },
+      {
+        "clave": "",
+        "nombre": "Ing. Sísmica",
+        "créditos": ""
+      }
+    ],
+    "about": "",
+    "specialization": "",
+    "website": ""
+  },
+  "Ing. Miguel Angel Pacheco Martínez": {
+    "_id": 32,
+    "academic_degree": "Ing.",
+    "photo_name": "profesor.png",
+    "names": "Miguel Angel",
+    "last name": "Pacheco Martínez",
+    "email": "mapmexico2000@gmail.com",
+    "teaching_subjects": [
+      {
+        "clave": "",
+        "nombre": "Mecánica de Materiales I",
+        "créditos": ""
+      }
+    ],
+    "about": "",
+    "specialization": "",
+    "website": ""
+  },
+  "Ing. Esp. José Antonio Pérez Pontón": {
+    "_id": 33,
+    "academic_degree": "Ing. Esp.",
+    "photo_name": "profesor.png",
+    "names": "José Antonio",
+    "last name": "Pérez Pontón",
+    "email": "ponton_111@hotmail.com",
+    "teaching_subjects": [
+      {
+        "clave": "",
+        "nombre": "Estructuras Isostáticas",
+        "créditos": ""
+      }
+    ],
+    "about": "",
+    "specialization": "",
+    "website": ""
+  },
+  "Dr. Leonardo Ramírez Guzmán": {
+    "_id": 34,
+    "academic_degree": "Dr.",
+    "photo_name": "profesor.png",
+    "names": "Leonardo",
+    "last name": "Ramírez Guzmán",
+    "email": "LRamirezG@iingen.unam.mx",
+    "teaching_subjects": [
+      {
+        "clave": "",
+        "nombre": "Mecánica de Materiales I",
+        "créditos": ""
+      }
+    ],
+    "about": "",
+    "specialization": "",
+    "website": ""
+  },
+  "Dr. Gerardo Rodríguez Gutierrez": {
+    "_id": 35,
+    "academic_degree": "Dr.",
+    "photo_name": "est_GerardoRodriguezGutierrez.jpg",
+    "names": "Gerardo",
+    "last name": "Rodríguez Gutierrez",
+    "email": "grog@pumas.iingen.unam.mx",
+    "teaching_subjects": [
+      {
+        "clave": "",
+        "nombre": "Dimensionamiento de elementos estructurales",
+        "créditos": ""
+      }
+    ],
+    "about": "Técnico Académico Titular A. Ingeniero Civil, egresado de la Facultad de Ingeniería de la UNAM. Maestro en Estructuras, egresado de la DEPFI, UNAM. Ingresó a la UNAM en 1991.",
+    "specialization": "",
+    "website": ""
+  },
+  "M.I. Miguel Angel Rodríguez Vega": {
+    "_id": 36,
+    "academic_degree": "M.I.",
+    "photo_name": "profesor.png",
+    "names": "Miguel Angel",
+    "last name": "Rodríguez Vega",
+    "email": "miguelar@comunidad.unam.mx",
+    "teaching_subjects": [
+      {
+        "clave": "",
+        "nombre": "Estructuras Isostáticas",
+        "créditos": ""
+      },
+      {
+        "clave": "",
+        "nombre": "Anáisis Estructural",
+        "créditos": ""
+      }
+    ],
+    "about": "",
+    "specialization": "",
+    "website": ""
+  },
+  "M.I. Tomás Guadalupe Sánchez Reyes": {
+    "_id": 37,
+    "academic_degree": "M.I.",
+    "photo_name": "est_TomasSanchezReyes.jpg",
+    "names": "Tomás Guadalupe",
+    "last name": "Sánchez Reyes",
+    "email": "tomas.gsr@gmail.com",
+    "teaching_subjects": [
+      {
+        "clave": "",
+        "nombre": "Mecánica de Materiales I",
+        "créditos": ""
+      }
+    ],
+    "about": "",
+    "specialization": "",
+    "website": ""
+  },
+  "M.I. Félix Serralde González": {
+    "_id": 38,
+    "academic_degree": "M.I.",
+    "photo_name": "profesor.png",
+    "names": "Félix",
+    "last name": "Serralde González",
+    "email": "fserralde@me.com",
+    "teaching_subjects": [
+      {
+        "clave": "",
+        "nombre": "Mecánica de Materiales II",
+        "créditos": ""
+      }
+    ],
+    "about": "",
+    "specialization": "",
+    "website": ""
+  },
+  "Ing. Miguel Angel Soto Ruiseñor": {
+    "_id": 39,
+    "academic_degree": "Ing.",
+    "photo_name": "profesor.png",
+    "names": "Miguel Angel",
+    "last name": "Soto Ruiseñor",
+    "email": "mikol_9@hotmail.com",
+    "teaching_subjects": [
+      {
+        "clave": "",
+        "nombre": "Estructuras Isostáticas",
+        "créditos": ""
+      }
+    ],
+    "about": "",
+    "specialization": "",
+    "website": ""
+  },
+  "Dr. Roberto Stark Feldman": {
+    "_id": 40,
+    "academic_degree": "Dr.",
+    "photo_name": "est_RobertoStarkFeldman.jpg",
+    "names": "Roberto",
+    "last name": "Stark Feldman",
+    "email": "rstark@prodigy.net.mx",
+    "teaching_subjects": [
+      {
+        "clave": "",
+        "nombre": "Análisis Estructural",
+        "créditos": ""
+      }
+    ],
+    "about": "Profesor de Asignatura B, Definitivo. Ingeniero Civil, egresado de la Facultad de Ingeniería de la UNAM. Maestro en ciencias (Estructuras), egresado de la Universidad de Ilinois, E.U. Doctor en Filosofía (Estructuras), egresado de la Universidad de Ilinois, E.U.",
+    "specialization": "",
+    "website": ""
+  },
+  "M.I. Alberto Teranishi Castillo": {
+    "_id": 41,
+    "academic_degree": "M.I.",
+    "photo_name": "profesor.png",
+    "names": "Alberto",
+    "last name": "Teranishi Castillo",
+    "email": "aatc76@hotmail.com",
+    "teaching_subjects": [
+      {
+        "clave": "",
+        "nombre": "Dimensionamiento de elementos estructurales",
+        "créditos": ""
+      },
+      {
+        "clave": "",
+        "nombre": "Diseño Estructural",
+        "créditos": ""
+      }
+    ],
+    "about": "",
+    "specialization": "",
+    "website": ""
+  },
+  "M.I. Carlos Villaseñor Mejía": {
+    "_id": 42,
+    "academic_degree": "M.I.",
+    "photo_name": "profesor.png",
+    "names": "Carlos",
+    "last name": "Villaseñor Mejía",
+    "email": "cvmdiseno@gmail.com",
+    "teaching_subjects": [
+      {
+        "clave": "",
+        "nombre": "Estructuras Isostáticas",
+        "créditos": ""
+      },
+      {
+        "clave": "",
+        "nombre": "Dimensionamiento de elementos estructurales",
+        "créditos": ""
+      },
+      {
+        "clave": "",
+        "nombre": "Análisis Estructural",
+        "créditos": ""
+      },
+      {
+        "clave": "",
+        "nombre": "Acciones dinámicas (Esp)",
+        "créditos": ""
+      }
+    ],
+    "about": "",
+    "specialization": "",
+    "website": ""
+  },
+  "Ing. Jesús Yáñez Gutiérrez": {
+    "_id": 43,
+    "academic_degree": "Ing.",
+    "photo_name": "profesor.png",
+    "names": "Jesús",
+    "last name": "Yáñez Gutiérrez",
+    "email": "jesus_yanez_8@hotmail.com",
+    "teaching_subjects": [
+      {
+        "clave": "",
+        "nombre": "Estructuras Isostáticas",
+        "créditos": ""
+      }
+    ],
+    "about": "",
+    "specialization": "",
+    "website": ""
+  },
+  "M.I. Miguel Angel Zúñiga Bravo": {
+    "_id": 44,
+    "academic_degree": "M.I.",
+    "photo_name": "est_MiguelAngelZunigaBravo.jpg",
+    "names": "Miguel Angel",
+    "last name": "Zúñiga Bravo",
+    "email": "mazunigab@comunidad.unam.mx",
+    "teaching_subjects": [
+      {
+        "clave": "",
+        "nombre": "Análisis Estructural",
+        "créditos": ""
+      },
+      {
+        "clave": "",
+        "nombre": "Análisis y Dis Asistido por Comp (Esp)",
+        "créditos": ""
+      }
+    ],
+    "about": "Profesor de Carrera Asociado C, tiempo completo. Ingeniero Civil, egresado de la Facultad de Ingeniería, UNAM. Maestro en Estructuras, egresado de la División de Estudios de Posgrado F.I., UNAM. Académico en la UNAM desde 2001",
+    "specialization": "",
+    "website": ""
+  }
+}
