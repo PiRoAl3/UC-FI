@@ -13,6 +13,9 @@
     margin-bottom: 100px;
 }
 
+
+
+
 .fra {
     width: 400px;
     height: 420px;
@@ -138,11 +141,6 @@
 
 
 
-
-
-
-
-
 /*estilo de los botones*/
 .princ .botones {
     display: flex;
@@ -151,6 +149,7 @@
     flex-direction: column;
     width: 245px;
     height: 187px;
+    padding: 3%;
 }
 
 .princ .botones .bt {
@@ -163,6 +162,10 @@
     margin: 10px;
     border-radius: 15px;
     transition: all .3s ease-in-out;
+}
+
+.princ .botones .email{
+    font-size: 12px;
 }
 
 .princ .botones .bt:hover {
