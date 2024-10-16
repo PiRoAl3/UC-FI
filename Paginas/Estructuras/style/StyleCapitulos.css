@@ -1,0 +1,21 @@
+.top-bloque, .foot-bloque{
+    background-color: #00627b;
+    opacity: 70%;
+    height: 5px;
+  }
+  
+  .center-bloque{
+    position: relative;
+      padding: 0px 0px;
+    background-color: none;
+      border-bottom: none;
+  }
+  .center-bloque h4{
+    color: #00627b;
+  }
+  .top-img{
+    float: left;
+    margin-right: 10px;
+    width: 500px;
+    /*overflow: hidden;*/
+  }

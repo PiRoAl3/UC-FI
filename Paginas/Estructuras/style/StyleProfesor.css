@@ -64,7 +64,7 @@
 }
 
 .princ .hea .text {
-    color: #857160;
+    color: #00627b;
     text-align: center;
     & .nombre{
         margin-bottom: 10px;
@@ -82,10 +82,10 @@
     align-items: center;
     justify-content: center;
     background-color: transparent;
-    border-top: 2px solid #857160;
+    border-top: 2px solid #00627b;
     border-right: 2px solid #fff;
-    border-bottom: 2px solid #857160;
-    border-left: 2px solid #857160;
+    border-bottom: 2px solid #00627b;
+    border-left: 2px solid #00627b;
     position: relative; 
     transition: all 1.5s ease-in-out;
 
@@ -99,9 +99,9 @@
     align-items: center;
     justify-content: center;
     background-color: transparent;
-    border-top: 2px solid #857160;
-    border-right: 2px solid #857160;
-    border-bottom: 2px solid #857160;
+    border-top: 2px solid #00627b;
+    border-right: 2px solid #00627b;
+    border-bottom: 2px solid #00627b;
     border-left: 2px solid rgb(255, 255, 255);
     transition: all 1.5s ease-in-out;
 }
@@ -154,9 +154,9 @@
 }
 
 .princ .botones .bt {
-    border: 1px solid #857160;
+    border: 1px solid #16768a;
     background-color: transparent;
-    color: #857160;
+    color: #16768a;
     font-weight: bold;
     width: 165px;
     height: 44px;
@@ -166,7 +166,7 @@
 }
 
 .princ .botones .bt:hover {
-    background: #857160;
+    background: #16768a;
     color: #fff;
     cursor: pointer;
 }
@@ -183,7 +183,7 @@
     justify-content: center;
     flex-direction: column;
     color: #000000;
-    background: #8fb1a3;
+    background: #1a8ca4;
     width: 155px;
     height: 137px;
     margin-bottom: 5px;
@@ -204,8 +204,17 @@
 }
 
 .estadisticas .cont:hover {
-    background: #E1CFC2;
+    background: #16768a;
     cursor: pointer;
+}
+.estadisticas .cont .num{
+    color: #ffffff;
+    text-align: center;
+}
+
+.estadisticas .cont .text{
+    color: #ffffff;
+    text-align: center;
 }
 
 .linea {
