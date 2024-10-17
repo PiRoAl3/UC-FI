@@ -1,21 +1,52 @@
+.sub{
+  padding: 0px 20px;   
+}
+@media screen and (max-width: 800px) {
+  .sub{
+    text-align: center;   
+  }
+}
+/*Fin de Subtitulo ==========================================*/
+
+/*Seccion de  informacion en bloques ==========================================*/
+.bloques{
+  padding: 10px 20px; 
+}
+
 .top-bloque, .foot-bloque{
-    background-color: #00627b;
-    opacity: 70%;
-    height: 5px;
-  }
+  background-color: #00627b;
+  opacity: 70%;
+  height: 10px;
+}
+
+.center-bloque{
+  position: relative;
+    padding: 0px 0px;
+  background-color: none;
+    border-bottom: none;
+}
+
+.center-bloque >.contenedor{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.center-bloque > .contenedor> .widget {
+  background-color: #F5F5F5;
+    border-bottom: 10px solid #EEE;
   
-  .center-bloque{
-    position: relative;
-      padding: 0px 0px;
-    background-color: none;
-      border-bottom: none;
-  }
-  .center-bloque h4{
-    color: #00627b;
-  }
-  .top-img{
-    float: left;
-    margin-right: 10px;
-    width: 500px;
-    /*overflow: hidden;*/
-  }
+  text-align: center;
+  padding: 20px 20px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.center-bloque h4{
+  color: #00627b;
+}
+
+.center-bloque h5{
+  color: #00627b;
+}
+
