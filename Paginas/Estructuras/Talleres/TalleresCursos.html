@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="../style/StylesMain.css">
   <link rel="stylesheet" href="../style/StyleCarrusel.css">
   <link rel="stylesheet" href="../style/StyleTalleres.css">
+  <link rel="stylesheet" href="../style/StyleModal.css">
   <script src="../js/carrusel.js"></script>
 
 </head>
@@ -61,10 +62,36 @@
   <section class="talleres">
 
     <div class="fra">
-        <button><div class="im"><img src="../Talleres/img/ver1.jpeg" alt=" Flyer Proximo evento"></div></button>
+        <button><div class="im taller"><img src="../Talleres/img/ver1.jpeg" alt=" Flyer Proximo evento"></div></button>
         <div class="tit"> Visita al Tunel de viento </div>
     </div>
+    <span class="circle"></span>
+
     <!--modal de la imagen-->
+    <dialog  class="modal" >
+      <div class="header-modal">
+          <div class="title-modal"><h2>Eventos agosto 2024</h2></div>
+      
+          <button class="close-btn">&times;</button>
+      </div>
+      
+      <div class="text">
+
+          <p2>Sin eventos este mes</p2>
+
+          <p2></p2>
+          <p2></p2> <!-- Divisiones temporales, buscar forma de dividir los diferentes eventos con bordes para claridad visual-->
+          <p2>______________________________________________________________</p2>
+          <p2></p2>
+          <p2></p2>
+          <p2></p2>
+
+          <button class="cerrar-modal">cerrar </button>
+      
+      </div>
+      
+  </dialog>
+    <!--Fin deñ modal-->
 
     <div class="fra">
       <div class="im"><img src="../Talleres/img/ver2.jpeg" alt=" Flyer Proximo evento"></div>
