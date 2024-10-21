@@ -1,3 +1,37 @@
+/* Regresar =============================*/
+.regresar .menu2{
+	float: none;
+	max-width: max-content;
+	background:#fff;
+	border-top: 2px solid #00627b;
+	border-bottom: 2px solid #00627b;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+}
+
+.menu2 li{
+	list-style: none;
+  margin-left: 10px;
+  padding-right: 10px;
+	margin-right: 10px;
+  margin:auto
+}
+.menu2 > h3{
+color: #444;
+padding: 0px 10px;
+}
+
+.menu2 > li> a{
+  font-size: 18px;
+}
+
+.menu2 a:hover {
+  color: #444;
+}
+/* Fin de regresar =============================*/
 /*Subitulo 2 ==========================================*/
 .Sub2{
     padding: 0px 20px; 
@@ -45,7 +79,7 @@
   }
   
   .bienvenida > div > .contenedor2 h4, h5 {
-      color: #cd171e;
+      color: #00627b;
   }
   
   .bienvenida > .foto-bienvenida img {
@@ -63,7 +97,7 @@
   .bienvenida > .foto-bienvenida2  div {
     display: block;
     padding: 10px 10px;
-    border:2px solid #cd171e;
+    border:2px solid #00627b;
   }
   
   .bienvenida > .foto-bienvenida2 img {
@@ -84,7 +118,7 @@
   }
   
   .top-bloque, .foot-bloque{
-    background-color: #cd171e;
+    background-color: #00627b;
     opacity: 70%;
     height: 10px;
   }
@@ -113,17 +147,17 @@
   }
   
   .center-bloque h4{
-    color: #cd171e;
+    color: #00627b;
   }
   
   .center-bloque h5{
-    color: #cd171e;
+    color: #00627b;
   }
   
   .badge-danger{
     font-size: 14px;
     margin: 3px 0;
-    background: #cd171e;
+    background: #00627b;
     color: #fff;
     display: inline-block;
     display: inline-table;
@@ -141,7 +175,7 @@
   .badge-danger2{
     font-size: 16px;
     margin: 0.5em;
-    background: #cd171e;
+    background: #00627b;
     color: #fff;
     display: inline-block;
     padding: 0.25em 0.4em;
@@ -213,11 +247,11 @@
   }
   
   .center-bloque2 h4{
-    color: #cd171e;
+    color: #00627b;
   }
   
   .center-bloque2 h5{
-    color: #cd171e;
+    color: #00627b;
   }
   
   .center-bloque2 > .contenedor2> .widget2 p{
