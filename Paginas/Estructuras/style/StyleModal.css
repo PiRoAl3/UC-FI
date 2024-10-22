@@ -23,7 +23,7 @@
 
     
     & .title-modal{
-        background: linear-gradient(to top, #861621, #e10615);
+        background: linear-gradient(to top, #00627b, #36badb);
         height: 70px;
         display: flex;
         justify-content: center;
@@ -81,6 +81,6 @@
 }
 
 .close-btn:hover{
-    color: red;
+    color: #00627b;
     background-color: darkgray;
 }

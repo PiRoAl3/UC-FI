@@ -1,5 +1,5 @@
 // Obtén todos los botones "Read More"
-const botonesAbrirModal = document.querySelectorAll(".taller");
+const botonesAbrirModal = document.querySelectorAll(".readMore");
 
 // Obtén todos los modales
 const modales = document.querySelectorAll(".modal");
