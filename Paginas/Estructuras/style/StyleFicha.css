@@ -2,7 +2,7 @@
 
 .regresar{
   display: block;
-  width: 100%;
+  2th: 100%;
 }
 
 .regresar .menu2{
@@ -223,41 +223,99 @@ padding: 0px 10px;
   
   /*Fin de Seccion de  informacion en bloques2 ========================================*/
 
-  .cont{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 20%;
-    margin-right: 20%;
+.center-bloque{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: row;
+}
+
+
+.fix{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  position: relative;
+  margin-right: 20px;
+  
+  & .image-title{
+
+    position:sticky;
+    top: 20px;
+  }
+}
+
+
+
+
+.cont{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.conten{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  & .sub2{
+    text-align: center;
+    margin-bottom: 10px;
   }
 
-  .conten{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 10%;
-    margin-right: 50%;
+  & .sub3{
+    text-align: center;
   }
 
-  .FotoP{
-    width: 250px;
-    height: 250px;
-    justify-content: center;
+}
+
+.FotoP{
+  width: 250px;
+  height: 250px;
+  justify-content: center;
+}
+
+
+
+.cont .bien .foto-bienvenida2{
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#title2 {
+  padding: 10px 0;
+  background-color: #F5F5F5;
+  border-bottom: 1px solid #EEE;
+}
+
+
+
+
+
+.center-bloque .widget2 {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  flex-direction: column;
+  padding: 10px;
+
+  & h4{
+    margin-bottom: 10px;
+    
   }
+
+  & strong{
+    margin-bottom: 10px;
+  }
+}
 
  
-
-  .cont .bien .foto-bienvenida2{
-    margin-bottom: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  #title2 {
-    padding: 10px 0;
-    padding-left: 10%;
-    padding-right: 35%;
-    background-color: #F5F5F5;
-    border-bottom: 1px solid #EEE;
-  }
