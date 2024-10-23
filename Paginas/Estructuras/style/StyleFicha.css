@@ -2,7 +2,7 @@
 
 .regresar{
   display: block;
-  2th: 100%;
+  /*2th: 100%;*/
 }
 
 .regresar .menu2{
@@ -262,6 +262,7 @@ padding: 0px 10px;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  padding-top: 5%;
 
   & .sub2{
     text-align: center;
@@ -317,5 +318,58 @@ padding: 0px 10px;
     margin-bottom: 10px;
   }
 }
+
+/*Contacto*/
+.postcontent { width: 690px; }
+.postcontent.bothsidebar { width: 440px; }
+.nobottommargin { 
+  margin-bottom: 0 !important; 
+  margin-left: 25%;
+}
+
+.entry {
+	position: relative;
+	margin: 0 0 50px;
+	padding: 0 50px 50px;
+	/*border-bottom: 2px solid #F5F5F5;*/
+}
+.entry-meta li {
+	float: left;
+	font-size: 18px;
+	line-height: 14px;
+	margin: 0 10px 15px 0;
+	color: #999;
+	font-family: 'Crete Round', serif;
+	font-style: italic;
+}
+
+.entry-meta li:before {
+	content: '/';
+	display: inline-block;
+	margin-right: 10px;
+	opacity: 0.5
+}
+
+.entry-meta li i {
+	position: relative;
+	top: 1px;
+	font-size: 14px;
+	margin-right: 3px;
+}
+
+.entry-meta li a { color: #999; }
+
+.entry-meta li a:hover { color: #66ccff; }
+
+.entry-meta li:first-child:before { display: none; }
+
+.entry-meta li ins {
+	font-weight: 600;
+	text-decoration: none;
+}
+.icon-mail:before {
+	content: "\e6ab";
+}
+
 
  
