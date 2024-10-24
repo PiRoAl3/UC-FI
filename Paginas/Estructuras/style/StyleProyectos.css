@@ -26,11 +26,10 @@
     cursor: pointer;
     opacity: 0.5;
 }
-.proyectos .container{
-    padding-left: 5%;
-    padding-right: 5%;
-}
 
-.proyectos .container .foto{
+.foto{
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+    padding-bottom: 1%;
     width: 100%;
 }

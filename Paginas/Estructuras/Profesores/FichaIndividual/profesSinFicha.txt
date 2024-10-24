@@ -1,0 +1,30 @@
+Profesores con ficha individual, sin info todavía:
+
+- Dr. Carlos Emiliano González Calva                 ---
+    - ficha_GonzalezCalva.html
+    - Mecánica de Materiales I
+
+- M.I. Fernando Cueto Jiménez                        ---
+    - ficha_CuetoJimenez.html
+    - Mecánica de Materiales I 
+
+- Dr. Hugo Castellanos Rosado                        ---
+    - ficha_CastellanosRosado.html
+    - Dimensionamiento de Elementos Estructurales
+
+- MESc. Itzel Rosalía Núñez Vargas                   ---
+    - ficha_NunezVargas.html
+    - Mecánica de Materiales II
+
+- M.I. Juan Manuel Fuentes García                    ---
+    - ficha_FuentesGarcia.html
+    - Diseño Estructural 
+
+- M.I. Nina Casas Guzik                              ---
+    - ficha_CasasGuzik.html
+    - Mecánica de Materiales II 
+
+- Dr. Raúl Sánchez García                            ---
+    - ficha_SanchezGarcia.html 
+    - Análisis Estructural 
+    - Puentes
